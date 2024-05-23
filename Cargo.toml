@@ -1,0 +1,12 @@
+[package]
+name = "poseidon-sys"
+version = "0.1.0"
+edition = "2021"
+links = "poseidon"
+
+[dependencies]
+bytemuck = "1.16.0"
+
+[dev-dependencies]
+proptest = "1.4.0"
+test-strategy = "0.3.1"
