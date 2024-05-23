@@ -1,3 +1,5 @@
+#![cfg_attr(not(test), no_std)]
+
 /// A 256-bit unsigned integer in little-endian order
 pub type U256 = [u8; 32];
 

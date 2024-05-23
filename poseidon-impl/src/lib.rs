@@ -1,3 +1,8 @@
+#![no_std]
+
+extern crate alloc;
+
+use alloc::boxed::Box;
 use ff::PrimeField;
 use poseidon_base::primitives::{ConstantLength, Hash, P128Pow5T3};
 
