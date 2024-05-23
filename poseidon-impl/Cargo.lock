@@ -351,11 +351,6 @@ dependencies = [
 ]
 
 [[patch.unused]]
-name = "halo2curves"
-version = "0.3.1"
-source = "git+https://github.com/scroll-tech/halo2curves.git?branch=0.3.1-derive-serde#969f1e44d9713ee4cd552563bd0c762c5d53b56e"
-
-[[patch.unused]]
 name = "poseidon"
 version = "0.2.0"
 source = "git+https://github.com/scroll-tech/poseidon.git?branch=scroll-dev-0220#2fb4a2385bada39b50dce12fe50cb80d2fd33476"
@@ -364,3 +359,8 @@ source = "git+https://github.com/scroll-tech/poseidon.git?branch=scroll-dev-0220
 name = "halo2_proofs"
 version = "0.2.0"
 source = "git+https://github.com/scroll-tech/halo2.git?branch=develop#1070391642dd64b2d68b47ec246cba9e35bd3c15"
+
+[[patch.unused]]
+name = "halo2curves"
+version = "0.3.1"
+source = "git+https://github.com/scroll-tech/halo2curves.git?branch=0.3.1-derive-serde#969f1e44d9713ee4cd552563bd0c762c5d53b56e"
