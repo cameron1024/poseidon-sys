@@ -35,12 +35,12 @@
         cd target
 
         rm -rf libs
-        rm -rf libs.tar.xz
+        rm -rf libs.tar.gz
 
         mkdir libs
         ${pkgs.lib.concatStrings tarInputs}
 
-        tar -czvf libs.tar.xz libs
+        tar -czvf libs.tar.gz libs/**
       '';
     in {
       devShells.default = pkgs.mkShell {
